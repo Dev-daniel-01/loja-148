@@ -20,16 +20,27 @@ body{
     color: var(--branco)
 }   
 
+
 .container{
     border: 2px solid var(--branco);
     padding: 30px;
+    padding-top: 50px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
     gap: 2vh;
 }
+
+.logo{
+position: absolute;
+width: 300px;
+height: auto;
+top: -33%;
+}
+
 
 input, button{
     padding: 10px;
