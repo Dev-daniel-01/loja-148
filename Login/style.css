@@ -22,7 +22,7 @@ body{
 
 .container{
     border: 2px solid var(--branco);
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -57,11 +57,11 @@ transition: all 200ms ease-in-out;
 .key:hover{
     cursor: pointer;
     opacity: 1;
-    transform: scale(1.2) rotate(360deg);
+    transform: scale(1.2) rotate(180deg);
 }
 
 .error-div{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     gap: 2vw;
@@ -83,6 +83,6 @@ transition: all 200ms ease-in-out;
 
 .error-div button:hover{
     width: 100px;
-    background-color: var(--branco);
+    background-color: var(--branco) ;
     border: 2px solid var(--branco);
 }
