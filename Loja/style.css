@@ -3,3 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+
+
+.wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}

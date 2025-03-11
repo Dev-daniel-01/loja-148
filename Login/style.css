@@ -19,8 +19,6 @@ body{
     background-color: var(--escuro);
     color: var(--branco)
 }   
-
-
 .container{
     border: 2px solid var(--branco);
     padding: 30px;
