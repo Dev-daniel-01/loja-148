@@ -22,6 +22,7 @@ fetch("../Dados/loja.json")
             card.className = "card"
             card.style.width = "18rem"
             card.style.margin = "10px"
+            card.style.backgroundColor = "black"
             
 
             const Imagem = document.createElement("img")
@@ -44,6 +45,9 @@ fetch("../Dados/loja.json")
             btnAdicionarAoCarrinho.className = "btn btn-primary btn-adicionar-ao-carrinho"
             btnAdicionarAoCarrinho.setAttribute("data-indice", index)
             btnAdicionarAoCarrinho.textContent = "Adicionar ao carrinho"
+            btnAdicionarAoCarrinho.style.backgroundColor = "goldenrod"
+            btnAdicionarAoCarrinho.style.border = "none"
+
 
             cardBody.appendChild(cardTitle)
             cardBody.appendChild(cardText)

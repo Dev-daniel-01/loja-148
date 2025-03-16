@@ -8,7 +8,7 @@
     },
     {
         "Id":2,
-        "descrIcao":"Produto 2",
+        "descricao":"Produto 2",
         "Imagem": "../Assets/Imagens/perfume2.webp", 
         "preco": 202.0
     },

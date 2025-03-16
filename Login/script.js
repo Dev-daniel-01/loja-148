@@ -15,7 +15,7 @@ function login(){
 // seta no local storage o objeto criado acima
         localStorage.setItem("usuario", JSON.stringify(user))
 // manda para pagina da loja via href
-        window.location.href = "../Loja/"
+        window.location.href = "../Loja"
     }else{
          // pinta de rosa os inputs caso haja erro e faz aparecer o modal de erro
         document.getElementById("error-modal").style.display = "flex"

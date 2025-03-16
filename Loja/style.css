@@ -5,11 +5,28 @@
 }
 
 
+body{
+    background-color: #050e2e !important;
+    color: goldenrod !important;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.car{
+    width: 100vw;
+    height: 3rem;
+    border-bottom: 2px solid #000000;
+    padding: 8px;
+    display: flex;
+    justify-content:left;
+    flex-direction: center;
+}
 
 
 .wrap{
     display: flex;
-    flex-direction: row;
+    flex-direction: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
