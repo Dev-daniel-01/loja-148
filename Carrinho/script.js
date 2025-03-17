@@ -5,7 +5,7 @@ $(document).ready(function () {
     //elemento onde a lista sera exibida
     const listElement = $("#lista")
     //elemento para o total
-    const totalElement = $("total")
+    const totalElement = $("#total")
 
     //funcao  para exibir o carrinho
     function exibirCarrinho() {
@@ -20,7 +20,7 @@ $(document).ready(function () {
         $.each(carrinho, function (index, item) {
             //cria um elemento de lista para cada item
             const listItem = $("<li>").text(
-                `${item.descricao} - preco: $${item.preco}`
+                `${item.descricao} - Preço: $${item.preco}`
             );
 
             //cria um botao de remoção do item
@@ -37,7 +37,7 @@ $(document).ready(function () {
             listElement.append(listItem)
             totalPreco += item.preco
         });
-        totalElement.text(`Total: $${totalPreco}`)
+        totalElement.text(`Preço total: $${totalPreco}`)
     }
 
     function removerItemDoCarrinho(index){
